@@ -1,7 +1,43 @@
-<head>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<style>
-    inline-block {
-        
-    }
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+ 
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+.mainnav {
+    margin-left: auto;
+    text-align: center;
+    outline: 1px solid red;
+    align-items: right;
+}
+
+.herolmg {
+    height: 600px;
+    padding: 25px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.footer {
+    text-align: center;
+}
+
+.contactme {
+    display: inline-block;
+    padding: 25px;
+    outline: 1px solid red;
+}
+
+.profile {
+    width: 50%;
+}
